@@ -1,0 +1,35 @@
+2025-04-27 15:44:44,908 - INFO - Starting data merge process...
+2025-04-27 15:44:44,908 - INFO - Base directory: ./data/step3/
+2025-04-27 15:44:44,908 - INFO - Output directory: ./data/step3/merged/
+2025-04-27 15:44:44,908 - INFO - Using random seed: 2025
+2025-04-27 15:44:44,908 - INFO - 
+Processing variant: alternative_m3_full_sentence
+2025-04-27 15:44:44,908 - INFO - Found 0 processed files for variant 'alternative_m3_full_sentence'
+2025-04-27 15:44:44,908 - WARNING - No processed files found for variant 'alternative_m3_full_sentence'
+2025-04-27 15:44:44,908 - WARNING - No data found for variant: alternative_m3_full_sentence
+2025-04-27 15:44:44,908 - INFO - 
+Processing variant: alternative_m3_cot
+2025-04-27 15:44:44,908 - INFO - Found 0 processed files for variant 'alternative_m3_cot'
+2025-04-27 15:44:44,908 - WARNING - No processed files found for variant 'alternative_m3_cot'
+2025-04-27 15:44:44,908 - WARNING - No data found for variant: alternative_m3_cot
+2025-04-27 15:44:44,908 - INFO - 
+Processing variant: alternative_m3_allow_0
+2025-04-27 15:44:44,908 - INFO - Found 0 processed files for variant 'alternative_m3_allow_0'
+2025-04-27 15:44:44,908 - WARNING - No processed files found for variant 'alternative_m3_allow_0'
+2025-04-27 15:44:44,908 - WARNING - No data found for variant: alternative_m3_allow_0
+2025-04-27 15:44:44,908 - INFO - 
+Processing variant: alternative_m3_m1_unchanged
+2025-04-27 15:44:44,909 - INFO - Found 0 processed files for variant 'alternative_m3_m1_unchanged'
+2025-04-27 15:44:44,909 - WARNING - No processed files found for variant 'alternative_m3_m1_unchanged'
+2025-04-27 15:44:44,909 - WARNING - No data found for variant: alternative_m3_m1_unchanged
+2025-04-27 15:44:44,909 - INFO - 
+Processing variant: alternative_m3_numbered_sentences
+2025-04-27 15:44:44,909 - INFO - Found 0 processed files for variant 'alternative_m3_numbered_sentences'
+2025-04-27 15:44:44,909 - WARNING - No processed files found for variant 'alternative_m3_numbered_sentences'
+2025-04-27 15:44:44,909 - WARNING - No data found for variant: alternative_m3_numbered_sentences
+2025-04-27 15:44:44,909 - INFO - 
+Processing variant: alternative_m3_revealed_recognition_task
+2025-04-27 15:44:44,909 - INFO - Found 0 processed files for variant 'alternative_m3_revealed_recognition_task'
+2025-04-27 15:44:44,909 - WARNING - No processed files found for variant 'alternative_m3_revealed_recognition_task'
+2025-04-27 15:44:44,909 - WARNING - No data found for variant: alternative_m3_revealed_recognition_task
+2025-04-27 15:44:44,909 - ERROR - No data found for any variant. Exiting.

@@ -1,0 +1,11 @@
+{
+  "model1": "Grok",
+  "model2": "Gemini",
+  "model3": "ChatGPT",
+  "total_samples": 1000,
+  "valid_samples": 1000,
+  "accuracy": 0.355,
+  "is_self_recognition": false,
+  "is_self_evaluation": false,
+  "timestamp": "2025-04-27 14:09:27"
+}

@@ -1,0 +1,14 @@
+{
+  "model": "Llama",
+  "total_prompts": 1200,
+  "success_count": 1200,
+  "error_count": 0,
+  "success_rate": 100.0,
+  "exact_5_sentences": 1184,
+  "sentence_count_distribution": {
+    "5": 1184,
+    "6": 14,
+    "4": 2
+  },
+  "timestamp": "2025-04-07 23:07:04"
+}

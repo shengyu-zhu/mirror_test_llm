@@ -1,0 +1,7 @@
+Evaluator,Overall Accuracy
+Claude,59.30%
+Grok,55.00%
+Gemini,52.90%
+Deepseek,44.30%
+Llama,41.10%
+Chatgpt,35.50%

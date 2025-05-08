@@ -1,0 +1,8 @@
+{
+  "model1": "Grok",
+  "model2": "Grok",
+  "total_samples": 1000,
+  "accuracy": 0.0,
+  "is_self_recognition": true,
+  "timestamp": "2025-04-09 09:40:56"
+}

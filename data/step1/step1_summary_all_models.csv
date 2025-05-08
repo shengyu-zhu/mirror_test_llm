@@ -1,0 +1,7 @@
+model|total_prompts|success_count|error_count|success_rate|exact_5_sentences|exact_5_rate|status
+ChatGPT|0|0|0|0.00%|0|0.00%|Failed
+Claude|0|0|0|0.00%|0|0.00%|Failed
+Grok|0|0|0|0.00%|0|0.00%|Failed
+Gemini|0|0|0|0.00%|0|0.00%|Failed
+Llama|0|0|0|0.00%|0|0.00%|Failed
+Deepseek|0|0|0|0.00%|0|0.00%|Failed

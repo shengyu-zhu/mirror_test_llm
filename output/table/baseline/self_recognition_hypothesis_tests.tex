@@ -1,0 +1,17 @@
+\begin{table}[ht]
+\centering
+\footnotesize
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Model} & \textbf{Accuracy} & \textbf{Sample Size} & \textbf{Effect} & \textbf{P-value} & \textbf{Significant} & \textbf{Interpretation} \\
+\hline
+ChatGPT & 73.6% & 516 & Above chance & 0.0000 & Yes & Shows self-recognition ability \\
+Grok & 70.3% & 996 & Above chance & 0.0000 & Yes & Shows self-recognition ability \\
+Deepseek & 16.7% & 60 & Below chance & 0.0000 & Yes & Systematically fails to recognize itself \\
+Llama & 16.2% & 999 & Below chance & 0.0000 & Yes & Systematically fails to recognize itself \\
+Claude & 100.0% & 1 & Above chance & 1.0000 & No & No evidence of self-recognition \\
+\hline
+\end{tabular}
+\caption{Self-Recognition Ability: Hypothesis Test Results (50\% Random Chance)}
+\label{tab:self-recognition-tests}
+\end{table}

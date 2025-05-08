@@ -1,0 +1,8 @@
+{
+  "model1": "Deepseek",
+  "model2": "Grok",
+  "total_samples": 944,
+  "accuracy": 0.05190677966101695,
+  "is_self_recognition": false,
+  "timestamp": "2025-04-09 11:50:04"
+}

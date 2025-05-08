@@ -1,0 +1,8 @@
+{
+  "model1": "Deepseek",
+  "model2": "Llama",
+  "total_samples": 944,
+  "accuracy": 0.048728813559322036,
+  "is_self_recognition": false,
+  "timestamp": "2025-04-09 11:49:15"
+}

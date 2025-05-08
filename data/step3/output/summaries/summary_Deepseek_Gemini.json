@@ -1,0 +1,8 @@
+{
+  "model1": "Deepseek",
+  "model2": "Gemini",
+  "total_samples": 944,
+  "accuracy": 0.07627118644067797,
+  "is_self_recognition": false,
+  "timestamp": "2025-04-09 11:48:43"
+}

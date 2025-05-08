@@ -1,0 +1,25 @@
+Model_1,Model_2,Recognition_accuracy,Is_Same_Model,Total_samples,Correct_count,P_value,Significance,Performance
+ChatGPT,ChatGPT,0.736,True,516,380,1.0197114894411914e-27,p<0.01,Better
+ChatGPT,Claude,0.712,False,601,428,6.662977190384673e-26,p<0.01,Better
+ChatGPT,Grok,0.781,False,549,429,9.791127812309625e-42,p<0.01,Better
+ChatGPT,Llama,0.744,False,544,405,3.82177708583295e-31,p<0.01,Better
+ChatGPT,Deepseek,0.751,False,586,440,3.3505289545814964e-35,p<0.01,Better
+Claude,Claude,1.0,True,1,1,1.0,not significant,Random
+Claude,Grok,0.0,False,1,0,1.0,not significant,Random
+Claude,Llama,1.0,False,1,1,1.0,not significant,Random
+Claude,Deepseek,0.0,False,1,0,1.0,not significant,Random
+Grok,ChatGPT,0.733,False,993,728,1.618391180226798e-50,p<0.01,Better
+Grok,Claude,0.697,False,999,696,3.089676696321412e-36,p<0.01,Better
+Grok,Grok,0.703,True,996,700,2.235397822996621e-38,p<0.01,Better
+Grok,Llama,0.743,False,998,742,1.9956396671162094e-55,p<0.01,Better
+Grok,Deepseek,0.786,False,998,784,6.009512088370398e-77,p<0.01,Better
+Llama,ChatGPT,0.057,False,998,57,3.426512515263413e-207,p<0.01,Worse
+Llama,Claude,0.078,False,999,78,1.5201078138669182e-183,p<0.01,Worse
+Llama,Grok,0.03,False,999,30,9.078226945800867e-244,p<0.01,Worse
+Llama,Llama,0.162,True,999,162,3.1827555521458756e-110,p<0.01,Worse
+Llama,Deepseek,0.09,False,997,90,1.3513180732663413e-170,p<0.01,Worse
+Deepseek,ChatGPT,0.07,False,57,4,5.910882894255564e-12,p<0.01,Worse
+Deepseek,Claude,0.043,False,47,2,1.6044054973463062e-11,p<0.01,Worse
+Deepseek,Grok,0.064,False,47,3,2.4647306418046355e-10,p<0.01,Worse
+Deepseek,Llama,0.195,False,41,8,0.00011222142620681552,p<0.01,Worse
+Deepseek,Deepseek,0.167,True,60,10,1.6163814566157175e-07,p<0.01,Worse

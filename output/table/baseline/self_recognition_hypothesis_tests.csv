@@ -1,0 +1,6 @@
+Model,Accuracy,Sample_Size,Successes,Expected,Effect,P_value,Significant,Interpretation
+ChatGPT,73.6%,516,379,258,Above chance,0.0000,Yes,Shows self-recognition ability
+Grok,70.3%,996,700,498,Above chance,0.0000,Yes,Shows self-recognition ability
+Deepseek,16.7%,60,10,30,Below chance,0.0000,Yes,Systematically fails to recognize itself
+Llama,16.2%,999,161,499,Below chance,0.0000,Yes,Systematically fails to recognize itself
+Claude,100.0%,1,1,0,Above chance,1.0000,No,No evidence of self-recognition

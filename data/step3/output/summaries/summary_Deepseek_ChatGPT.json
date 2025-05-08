@@ -1,0 +1,8 @@
+{
+  "model1": "Deepseek",
+  "model2": "ChatGPT",
+  "total_samples": 944,
+  "accuracy": 0.059322033898305086,
+  "is_self_recognition": false,
+  "timestamp": "2025-04-09 11:47:01"
+}

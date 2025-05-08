@@ -1,0 +1,27 @@
+% Requires \usepackage{booktabs} in preamble
+\begin{table}[htbp]
+  \centering
+  \caption{Sample Size Analysis by Story Length}
+  \begin{tabular}{ccrrrrc}
+    \toprule
+    \multicolumn{1}{c}{\textbf{\# of Sentences}} & 
+    \multicolumn{1}{c}{\textbf{Model}} &
+    \multicolumn{1}{c}{\textbf{Initial Size}} & 
+    \multicolumn{1}{c}{\textbf{Correct Count}} & 
+    \multicolumn{1}{c}{\textbf{Correct \%}} & 
+    \multicolumn{1}{c}{\textbf{Final Size}} &
+    \multicolumn{1}{c}{\textbf{Final \%}} \\
+    \midrule
+    2 & Grok & 5,100 & 5,090 & 99.8% & 5,090 & 99.8% \\
+    3 & Grok & 5,100 & 5,085 & 99.7% & 5,085 & 99.7% \\
+    5 & Grok & 5,100 & 5,003 & 98.1% & 5,003 & 98.1% \\
+    7 & Grok & 5,100 & 4,959 & 97.2% & 4,959 & 97.2% \\
+    10 & Grok & 5,100 & 4,933 & 96.7% & 4,933 & 96.7% \\
+    13 & Grok & 5,100 & 4,343 & 85.2% & 4,343 & 85.2% \\
+    15 & Grok & 5,100 & 3,037 & 59.5% & 3,037 & 59.5% \\
+    18 & Grok & 5,100 & 1,858 & 36.4% & 1,858 & 36.4% \\
+    20 & Grok & 5,100 & 1,517 & 29.7% & 1,517 & 29.7% \\
+    \bottomrule
+  \end{tabular}
+  \label{tab:sample-size-analysis}
+\end{table}

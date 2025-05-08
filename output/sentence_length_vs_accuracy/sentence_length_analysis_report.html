@@ -1,0 +1,196 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sentence Length vs Recognition Accuracy Analysis</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+            }
+            h1, h2, h3 {
+                color: #2c3e50;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                margin: 20px 0;
+            }
+            th, td {
+                padding: 12px 15px;
+                border: 1px solid #ddd;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .img-container {
+                margin: 20px 0;
+                text-align: center;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                border: 1px solid #ddd;
+            }
+            .summary-box {
+                background-color: #f8f9fa;
+                border-left: 4px solid #4285f4;
+                padding: 15px;
+                margin: 20px 0;
+            }
+            .significance {
+                font-weight: bold;
+            }
+            .sig-high {
+                color: #1a73e8;
+            }
+            .sig-med {
+                color: #188038;
+            }
+            .sig-low {
+                color: #e37400;
+            }
+            .sig-none {
+                color: #5f6368;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Sentence Length vs Recognition Accuracy Analysis</h1>
+            
+            <div class="summary-box">
+                <h3>Analysis Summary</h3>
+                <p>This analysis explores the relationship between sentence length differences and recognition accuracy across 6 language models.</p>
+                <ul>
+                    <li><strong>Models analyzed:</strong> ChatGPT, Claude, Grok, Gemini, Llama, Deepseek</li>
+                    <li><strong>Total model pairs:</strong> 36</li>
+                    <li><strong>Average self-recognition accuracy:</strong> 31.6%</li>
+                </ul>
+            </div>
+            
+            <h2>Key Findings</h2>
+            <p>The analysis investigated whether differences in sentence length patterns between models correlate with recognition accuracy:</p>
+    
+            <h3>Correlation Results</h3>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>Correlation (r)</th>
+                    <th>p-value</th>
+                    <th>Significance</th>
+                    <th>Interpretation</th>
+                </tr>
+    
+                <tr>
+                    <td>Character Count Difference</td>
+                    <td>0.150</td>
+                    <td>0.383</td>
+                    <td class="significance sig-none">ns</td>
+                    <td>Weak correlation (positive)</td>
+                </tr>
+            
+                <tr>
+                    <td>Word Count Difference</td>
+                    <td>0.110</td>
+                    <td>0.521</td>
+                    <td class="significance sig-none">ns</td>
+                    <td>Weak correlation (positive)</td>
+                </tr>
+            
+                <tr>
+                    <td>Relative Character Difference (%)</td>
+                    <td>0.145</td>
+                    <td>0.398</td>
+                    <td class="significance sig-none">ns</td>
+                    <td>Weak correlation (positive)</td>
+                </tr>
+            
+                <tr>
+                    <td>Relative Word Difference (%)</td>
+                    <td>0.118</td>
+                    <td>0.491</td>
+                    <td class="significance sig-none">ns</td>
+                    <td>Weak correlation (positive)</td>
+                </tr>
+            
+                <tr>
+                    <td>Character Change % Difference</td>
+                    <td>0.066</td>
+                    <td>0.702</td>
+                    <td class="significance sig-none">ns</td>
+                    <td>No meaningful correlation</td>
+                </tr>
+            
+            </table>
+            
+            <h2>Visualizations</h2>
+    
+            <div class="img-container">
+                <h3>Character Count Difference vs. Recognition Accuracy</h3>
+                <img src="sentence_length_vs_accuracy_char_diff.png" alt="Character Count Difference vs. Recognition Accuracy">
+            </div>
+        
+            <div class="img-container">
+                <h3>Word Count Difference vs. Recognition Accuracy</h3>
+                <img src="sentence_length_vs_accuracy_word_diff.png" alt="Word Count Difference vs. Recognition Accuracy">
+            </div>
+        
+            <div class="img-container">
+                <h3>Relative Character Difference (%) vs. Recognition Accuracy</h3>
+                <img src="sentence_length_vs_accuracy_rel_char_diff.png" alt="Relative Character Difference (%) vs. Recognition Accuracy">
+            </div>
+        
+            <div class="img-container">
+                <h3>Relative Word Difference (%) vs. Recognition Accuracy</h3>
+                <img src="sentence_length_vs_accuracy_rel_word_diff.png" alt="Relative Word Difference (%) vs. Recognition Accuracy">
+            </div>
+        
+            <div class="img-container">
+                <h3>Character Change % Difference vs. Recognition Accuracy</h3>
+                <img src="sentence_length_vs_accuracy_char_pct_diff.png" alt="Character Change % Difference vs. Recognition Accuracy">
+            </div>
+        
+            <div class="img-container">
+                <h3>Model Characteristics Summary</h3>
+                <img src="model_characteristics_summary.png" alt="Model Characteristics Summary">
+            </div>
+            
+            <h2>Methodology</h2>
+            <p>This analysis combined two datasets:</p>
+            <ol>
+                <li><strong>Sentence length statistics</strong>: Character and word counts for sentences generated by each model</li>
+                <li><strong>Recognition accuracy data</strong>: How well each model recognizes its own vs. other models' outputs</li>
+            </ol>
+            <p>For each pair of models, we calculated:</p>
+            <ul>
+                <li>Absolute differences in average character and word counts</li>
+                <li>Relative differences (as percentages) in sentence length metrics</li>
+                <li>Correlation between these differences and recognition accuracy</li>
+            </ul>
+            
+            <h2>Conclusions</h2>
+            <p>Based on the correlation analysis, we can make the following conclusions about the relationship between sentence length differences and recognition accuracy:</p>
+    
+            <ul>
+                <li>No statistically significant correlation was found between sentence length differences and recognition accuracy.</li>
+                <li>This suggests that models may be using other features beyond sentence length to recognize their own vs. others' outputs.</li>
+            </ul>
+        
+        </div>
+    </body>
+    </html>
+    

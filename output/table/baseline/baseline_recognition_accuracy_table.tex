@@ -1,0 +1,19 @@
+\begin{table}[ht]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{l|ccccc}
+\hline
+\multicolumn{1}{l|}{Model 1 (recognition)} & \multicolumn{5}{c}{Model 2 (sentence generation)} \\
+\hline
+  & ChatGPT & Claude & Deepseek & Grok & Llama \\
+\hline
+ChatGPT & \cellcolor{blue!15}\makecell{73.6\%\\(69\%, 77\%)} & \cellcolor{blue!15}\makecell{71.2\%\\(67\%, 75\%)} & \cellcolor{blue!15}\makecell{75.1\%\\(71\%, 78\%)} & \cellcolor{blue!15}\makecell{78.1\%\\(74\%, 81\%)} & \cellcolor{blue!15}\makecell{74.4\%\\(70\%, 78\%)} \\
+Claude & - & \cellcolor{blue!15}\makecell{100.0\%\\(100\%, 100\%)} & \makecell{0.0\%\\(0\%, 0\%)} & \makecell{0.0\%\\(0\%, 0\%)} & \cellcolor{blue!15}\makecell{100.0\%\\(100\%, 100\%)} \\
+Deepseek & \makecell{7.0\%\\(1\%, 14\%)} & \makecell{4.3\%\\(0\%, 10\%)} & \makecell{16.7\%\\(8\%, 26\%)} & \makecell{6.4\%\\(0\%, 14\%)} & \makecell{19.5\%\\(7\%, 31\%)} \\
+Grok & \cellcolor{blue!15}\makecell{73.3\%\\(70\%, 76\%)} & \cellcolor{blue!15}\makecell{69.7\%\\(66\%, 72\%)} & \cellcolor{blue!15}\makecell{78.6\%\\(76\%, 81\%)} & \cellcolor{blue!15}\makecell{70.3\%\\(67\%, 73\%)} & \cellcolor{blue!15}\makecell{74.3\%\\(71\%, 77\%)} \\
+Llama & \makecell{5.7\%\\(4\%, 7\%)} & \makecell{7.8\%\\(6\%, 9\%)} & \makecell{9.0\%\\(7\%, 10\%)} & \makecell{3.0\%\\(1\%, 4\%)} & \makecell{16.2\%\\(14\%, 18\%)} \\
+\hline
+\end{tabular}
+\caption{Baseline Recognition Accuracy Between Models (50\% random chance)}
+\label{tab:baseline-recognition-accuracy}
+\end{table}

@@ -1,0 +1,24 @@
+{
+  "model": "Deepseek",
+  "total_prompts": 1200,
+  "success_count": 1200,
+  "error_count": 0,
+  "success_rate": 100.0,
+  "exact_5_sentences": 944,
+  "sentence_count_distribution": {
+    "5": 944,
+    "6": 103,
+    "10": 87,
+    "11": 24,
+    "7": 19,
+    "4": 7,
+    "12": 5,
+    "9": 3,
+    "13": 3,
+    "8": 2,
+    "3": 1,
+    "14": 1,
+    "1": 1
+  },
+  "timestamp": "2025-04-08 01:03:49"
+}
